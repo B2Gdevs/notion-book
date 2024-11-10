@@ -1,0 +1,9 @@
+docs_dir: ../docs
+nav:
+- Project structure: project_structure.md
+- Definitions: definitions.md
+- Frontend: frontend.md
+site_name: turbo Documentation
+theme:
+  custom_dir: overrides
+  name: material

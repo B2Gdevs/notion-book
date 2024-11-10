@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* Dark Track */
+*::-webkit-scrollbar {
+  width: 12px;
+  background-color: #0a4829;
+}
+
+/* Creamer Thumb */
+*::-webkit-scrollbar-thumb {
+  background-color: #fff3e2;
+  border-radius: 6px;
+}
+
+/* Hover state for the thumb - this can be optional, but it's a nice touch */
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #ede4d3; /* slightly darker shade for hover */
+}
+
+/* Firefox Support */
+* {
+  scrollbar-color: #fff3e2 #0a4829;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}

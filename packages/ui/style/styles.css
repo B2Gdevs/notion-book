@@ -1,0 +1,185 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html[data-theme='default'] {
+    --color-beige-100: #F5EEDC;
+    --color-beige-200: #EDE4D3;
+    --color-darkgreen-500: #0A4829;
+    --color-almost-black: #2b2b2b;
+    --color-almost-black-light: #2b2b2b24;
+    --color-spinach-green-darker: #314844;
+    --color-cucumber-green-darker: #5b7f66;
+    --color-lime-green-darker: #c9e0b4;
+    --color-off-white-darker: #ede1d9;
+    --color-almost-black-darker: #1a1a1a;
+    --color-spinach-green-lighter: #c6cfcd;
+    --color-light-cyan-blue: #f7f9fb;
+    --color-cucumber-green: #749f82;
+    --color-lime-green: #e8f3d6;
+    --color-off-white: #fef5ed;
+    --color-almost-black: #2b2b2b;
+    --color-spinach-green: #425f57;
+    --color-corn-yellow: #fae389;
+    --color-pink-salmon: #f28181;
+    --color-creamer-beige: #fff3e2;
+    --color-peach-orange: #FFBB5C;
+    --color-peach-orange-lighter: #FFD27F;
+    --color-peach-orange-lightest: #ffbb5c3d;
+    --font-family-righteous: 'Righteous', serif;
+    --font-family-secondary: 'Open Sans', sans-serif;
+    --radius-lg: 0.5rem;
+    --radius-md: 0.375rem;
+    --radius-sm: 0.25rem;
+    --font-size-tiny: 0.65rem;
+    --font-size-xxs: 0.60rem;
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.80rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 1.875rem;
+    --font-size-4xl: 2.25rem;
+    --font-size-5xl: 3rem;
+    --font-size-6xl: 4rem;
+    --font-size-7xl: 5rem;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 10% 3.9%;
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+  }
+
+  html[data-theme='sprinklr'] {
+    --color-beige-100: #F5EEDC;
+    --color-beige-200: #EDE4D3;
+    --color-darkgreen-500: #0A4829;
+    --color-almost-black: #2b2b2b;
+    --color-almost-black-light: #2b2b2b24;
+    --color-spinach-green-darker: #314844;
+    --color-cucumber-green-darker: #5b7f66;
+    --color-lime-green-darker: #c9e0b4;
+    --color-off-white-darker: #ede1d9;
+    --color-almost-black-darker: #1a1a1a;
+    --color-spinach-green-lighter: #c6cfcd;
+    --color-light-cyan-blue: #f7f9fb;
+    --color-cucumber-green: #749f82;
+    --color-lime-green: #e8f3d6;
+    --color-off-white: #fef5ed;
+    --color-almost-black: #2b2b2b;
+    --color-spinach-green: #425f57;
+    --color-corn-yellow: #fae389;
+    --color-pink-salmon: #f28181;
+    --color-creamer-beige: #fff3e2;
+    --color-peach-orange: #FFBB5C;
+    --color-peach-orange-lighter: #FFD27F;
+    --color-peach-orange-lightest: #FFE6A2;
+    --font-family-righteous: 'Roboto', sans-serif;
+    --font-family-secondary: 'Open Sans', sans-serif;
+    --radius-lg: 0.5rem;
+    --radius-md: 0.375rem;
+    --radius-sm: 0.25rem;
+    --font-size-tiny: 0.65rem;
+    --font-size-xxs: 0.60rem;
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.80rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 1.875rem;
+    --font-size-4xl: 2.25rem;
+    --font-size-5xl: 3rem;
+    --font-size-6xl: 4rem;
+    --font-size-7xl: 5rem;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 10% 3.9%;
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Default scrollbar styling with transparent track */
+::-webkit-scrollbar-track {
+  background: transparent; /* Keep the track transparent always */
+}
+
+/* Initially transparent thumb */
+::-webkit-scrollbar-thumb {
+  background: transparent; /* Initially transparent thumb */
+  border-radius: 10px;
+  transition: background 0.3s ease; /* Smooth transition for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666; /* Darker shade for hover effect */
+}
+
+/* Set a default width and height for the scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* For Firefox, initially hide the scrollbar */
+* {
+  scrollbar-width: thin; /* Use 'thin' to keep it less obtrusive */
+  scrollbar-color: transparent transparent; /* Initially transparent scrollbar for Firefox */
+}
+
+/* Change scrollbar thumb on hover */
+*:hover::-webkit-scrollbar-thumb {
+  background: var(--color-spinach-green-lighter); /* Transition to light green thumb on hover */
+}
+
+/* For Firefox, change scrollbar thumb color on hover */
+*:hover {
+  scrollbar-color: var(--color-spinach-green-lighter) transparent; /* Light green thumb with transparent track on hover for Firefox */
+}
+
+.scrollable-container {
+  overflow-x: auto; /* Enables horizontal scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on touch devices */
+}

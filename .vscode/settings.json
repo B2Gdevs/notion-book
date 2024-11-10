@@ -1,0 +1,20 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.formatting.provider": "none",
+  "python.testing.unittestArgs": ["-v", "-s", "./backend", "-p", "*test*.py"],
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestEnabled": true,
+  "spellright.language": [
+    "en"
+  ],
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext"
+  ],
+  "python.analysis.extraPaths": [
+    "./colorfull/service/integration_management/service/stripe/service"
+  ]
+}

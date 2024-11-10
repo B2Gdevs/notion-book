@@ -1,0 +1,104 @@
+{
+  "cookies": [
+    {
+      "name": "__cf_bm",
+      "value": "OO41v4kOeJcWmEeJ12sTPv1tUqGqT7acaERbGMxL.rE-1705966527-1-AbLBnsEZnP1E8fM6VwpJ6tFBrJr/3+l5vhBqd/87JQP27DFh+X531zvwhJVdI+jXBpEvhEKfGCFzrbm91UdkyEM=",
+      "domain": ".close-ringtail-1.accounts.dev",
+      "path": "/",
+      "expires": 1705968327.074064,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cfuvid",
+      "value": "n7rOB8WExgXAdS7VnxFo8wCuIrJhwxEioEIpnDCMDmQ-1705966527340-0-604800000",
+      "domain": ".close-ringtail-1.accounts.dev",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "wAi..enGskVZ1VTPug9mpCf8MePAAaQOPoGLOvyrDFw-1705966528-1-AWLCzSAlqUkKMb+XE7FNaUobYhPUs8fTg5MmmGy+U2nrWueWkt5naS0FuBXNySHzD6Jch7tYbcqLvBJr1dbR6JU=",
+      "domain": ".close-ringtail-1.clerk.accounts.dev",
+      "path": "/",
+      "expires": 1705968327.894688,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cfuvid",
+      "value": "ze09HZqiLgsRiPRb9FaBlqOFf45Nc4McVsqcYs4L4ZM-1705966528163-0-604800000",
+      "domain": ".close-ringtail-1.clerk.accounts.dev",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__session",
+      "value": "eyJhbGciOiJSUzI1NiIsImNhdCI6ImNsX0I3ZDRQRDExMUFBQSIsImtpZCI6Imluc18yVXNCcVo3VXJLVUpuT1dqRmhXYkt1b1lUUEkiLCJ0eXAiOiJKV1QifQ.eyJhenAiOiJodHRwczovL2Nsb3NlLXJpbmd0YWlsLTEuYWNjb3VudHMuZGV2IiwiZXhwIjoxNzA1OTY2NTg4LCJpYXQiOjE3MDU5NjY1MjgsImlzcyI6Imh0dHBzOi8vY2xvc2UtcmluZ3RhaWwtMS5jbGVyay5hY2NvdW50cy5kZXYiLCJuYmYiOjE3MDU5NjY1MTgsInNpZCI6InNlc3NfMmJFWEZMSHJtTWJyMTA4dWV5SWg1SWwwaDdzIiwic3ViIjoidXNlcl8yYjJqRnlCS2lKTW9wNEtuZXU5UHZyS085M1YifQ.eyLp9nNnvSxaK7ut9XTGGtjyS6l26I3f4rWEKu-bdYFLTItBgB4fstQGUttkV4ShE8k5R7uXxxb91Gv1mtMsxdpaqUvolf-r2qB7sLXFFdV9bVoHmw-xrYVgmQoaIzt_fzJ96BTw-dI2hRx1V7dU35jWmHW0BoKqTTgrfynyZadncb_3iwSTIcXoQRRoCzrcDsXlBOwoG23P2eiKIPHjxo2kUlDQd-Cm4z2CXF6_fuklXQ1qQFpVJUd-QfX54AeKS0k3pgR_Q-6QoXNvPEaiJakqrYYABAhtPV3r7aAfocRlVc1cMDRPBd4BFaI8IbvnE2e5U6xVf8dfOC1TzXWPiQ",
+      "domain": "close-ringtail-1.accounts.dev",
+      "path": "/",
+      "expires": 1737588927,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__clerk_db_jwt",
+      "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXYiOiJkdmJfMmJLYjRsekJlemprWnBzakEzVmtiUEQwMEFTIn0.PONOb0Onr5xLg6F_D53hwFaqhAzRCIwVpPNu18ItcJyInhYRItMBCRlOczL5EooaHqtE1P8vi25T4syw938A7KXoQRd4eqDl8N9GLiLyrbOz8tzj2D_3PyTgEQGN3W9N2c_JxxAZdgEzgdXEtwqBLvOV86D4RaVZGLcJhgHuCHmUHmpJ8VewtaVCMD8EOHBrWE-U8glnuyCbeCEbAZvNAnIOB2tPIM40Ba9kZYxJZUa4iwglbFOKeF7nFrB5xz9l55pZA0i518emQpghxEKa5AXTGiO8tPIGe9Z_5VhJml6skAj1QOfPM_pTFR870Z5AQNGIbDDX2TLw42eTY0kFuA",
+      "domain": "localhost",
+      "path": "/",
+      "expires": 1737588928,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__client_uat",
+      "value": "0",
+      "domain": "localhost",
+      "path": "/",
+      "expires": 1737588928,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "__clerk_db_jwt",
+      "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXYiOiJkdmJfMmJLYjRsekJlemprWnBzakEzVmtiUEQwMEFTIiwiaWQiOiJjbGllbnRfMmJLYjUwNkFGSFczc1NJcDJkcnVZNERuWWlNIiwicm90YXRpbmdfdG9rZW4iOiI2eG5iODAxcHM4MnJ2bDZqcHpubHo4eHE0Z29udThic2d0bjdjeW9rIn0.HvmIaiLWRTo2B7WoiOExxBtKtMoh-OBhULfaWZ9TF2Ow3B-vRct378mgf-QVsT2tEJNlEhDXLWr31O_PvTVbilhJ8KZUB_f82yLslVis_nDxgOYTGrn8p0mq5_koCdNWPEa0rB_EQWhi2VHxTboxUXvjkB0GsaYsd_sdTBRJYMmGKu_9xrmKjO9ZsiQ3SJN32QvxVZkelkMTt6biX_62pZKj7jK24OPs9elxBCLAU4lo0CceMWps691N1LH8NTCr96mx0TYmPSNtebBpn3PeH539L7nTmo3MPs7focIN5RiUGZLuWnts_EX39780D4E5KBVNSkt6E27QXrOJtRFqUg",
+      "domain": "close-ringtail-1.accounts.dev",
+      "path": "/",
+      "expires": 1737588930,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://close-ringtail-1.accounts.dev",
+      "localStorage": [
+        {
+          "name": "clerk-db-jwt",
+          "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXYiOiJkdmJfMmJLYjRsekJlemprWnBzakEzVmtiUEQwMEFTIiwiaWQiOiJjbGllbnRfMmJLYjUwNkFGSFczc1NJcDJkcnVZNERuWWlNIiwicm90YXRpbmdfdG9rZW4iOiJkNmYwMWNscW04YjB3b3RrOGszamh3cWx1eG8xODZrejlqbTlzaWtyIn0.anbGfFpYz1UrIhLvdZtQOMlyPbheLPrFuZgjivYt50AU0smmB0YJQ4sxWKeHyVI24ar6E4OIPDSsT6Zbp0bizwOV2A-pJj4r9l-7FAlputJuqSCRTPZqbLmYpbuYSimKMEKtDgR6H807coMgGrHMQhISoeCzQgRD9NCYMv7d9WuWWF4BfXeyDIz-YRmBFvGUFz1ZrPKBMx3rha3P1CBE26m6mjnghbqY1BmldN6sMNGEQ4V2y07xHYNDS9uTVu6oJgCDot1w859pYh_aKO4imKg1n2XOcHXvKF0a6H8D1Lsq5gkzpDqIZDJb-cZYjiH6ooxTaGsHEgHRh7DxHpwdYw"
+        }
+      ]
+    },
+    {
+      "origin": "http://localhost:3000",
+      "localStorage": [
+        {
+          "name": "clerk-db-jwt",
+          "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXYiOiJkdmJfMmJLYjRsekJlemprWnBzakEzVmtiUEQwMEFTIn0.PONOb0Onr5xLg6F_D53hwFaqhAzRCIwVpPNu18ItcJyInhYRItMBCRlOczL5EooaHqtE1P8vi25T4syw938A7KXoQRd4eqDl8N9GLiLyrbOz8tzj2D_3PyTgEQGN3W9N2c_JxxAZdgEzgdXEtwqBLvOV86D4RaVZGLcJhgHuCHmUHmpJ8VewtaVCMD8EOHBrWE-U8glnuyCbeCEbAZvNAnIOB2tPIM40Ba9kZYxJZUa4iwglbFOKeF7nFrB5xz9l55pZA0i518emQpghxEKa5AXTGiO8tPIGe9Z_5VhJml6skAj1QOfPM_pTFR870Z5AQNGIbDDX2TLw42eTY0kFuA"
+        }
+      ]
+    }
+  ]
+}

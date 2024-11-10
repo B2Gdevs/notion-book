@@ -1,0 +1,75 @@
+name: (PROD) Deploy to Google Cloud Run
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - id: 'auth'
+        uses: 'google-github-actions/auth@v1'
+        with:
+          credentials_json: ${{ secrets.GCP_PRODUCTION_JSON }}
+
+      - name: 'Set up Cloud SDK'
+        uses: 'google-github-actions/setup-gcloud@v1'
+
+      - name: Configure Docker to use the gcloud command-line tool as a credential helper
+        run: |
+          gcloud auth configure-docker -q
+
+      - name: Build and push Docker image to Google Container Registry
+        run: |
+          docker build -t gcr.io/production-406816/colorfull .
+          docker push gcr.io/production-406816/colorfull
+
+      - name: Deploy to Cloud Run
+        run: |
+          gcloud run deploy colorfull \
+            --image gcr.io/production-406816/colorfull \
+            --platform managed \
+            --region us-central1 \
+            --allow-unauthenticated
+        env:
+          REGION: us-central1
+
+        # Build and push Docker image for another Cloud Run instance
+      - name: Build and push Docker image for another instance
+        run: |
+          docker build -t gcr.io/production-406816/colorfull-bastion-backend .
+          docker push gcr.io/production-406816/colorfull-bastion-backend
+
+      # Deploy to another Cloud Run instance
+      - name: Deploy to another Cloud Run instance
+        run: |
+          gcloud run deploy colorfull-bastion-backend \
+            --image gcr.io/production-406816/colorfull-bastion-backend \
+            --platform managed \
+            --region us-central1 \
+            --allow-unauthenticated
+        env:
+          REGION: us-central1
+
+      # # Build and push Docker image for Streamlit app to Google Container Registry
+      # - name: Build and push Docker image for Streamlit app
+      #   run: |
+      #     docker build -t gcr.io/production-406816/colorfull-streamlit -f colorfull/service/analysis_service/streamlits/otter_ck_dashboard_app/Dockerfile .
+      #     docker push gcr.io/production-406816/colorfull-streamlit
+
+
+      # - name: Deploy Streamlit app to Cloud Run
+      #   run: |
+      #     gcloud run deploy colorfull-streamlit \
+      #       --image gcr.io/production-406816/colorfull-streamlit \
+      #       --platform managed \
+      #       --region us-central1 \
+      #       --allow-unauthenticated
+      #   env:
+      #     REGION: us-central1
